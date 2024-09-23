@@ -28,7 +28,7 @@ export function Input({ onSubmit, placeholder, label, defaultValue, onBlur }) {
             if (e.key === "Enter") {
                 const value = e.target.value.trim();
 
-                if (!hasValidMin(value, 2))
+                if (!hasValidMin(value, 1))
                     return;
 
                 onSubmit(sanitize(value));
