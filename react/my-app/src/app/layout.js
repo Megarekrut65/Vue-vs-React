@@ -29,7 +29,6 @@ export default function RootLayout({ children }) {
           <p>Created by the TodoMVC Team</p>
           <p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
       </footer>
-      <script src="./base.js"></script>
       </body>
       </html>
 )
